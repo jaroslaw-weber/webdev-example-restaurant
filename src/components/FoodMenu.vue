@@ -1,8 +1,8 @@
 <template>
-  <div class="p-8">
+  <div class="">
     <p class="text-right text-2xl font-bold text-primary-600">Food Menu</p>
 
-    <p class="text-6xl text-right py-6">Subtitle</p>
+    <p class="text-4xl text-right py-8">The choice is yours</p>
     <div class="grid lg:grid-cols-2 gap-6">
       <div v-for="dish in dishes" :key="dish.name">
         <div class="bg-primary-50 p-4 flex">

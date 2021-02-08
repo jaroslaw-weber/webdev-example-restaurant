@@ -1,5 +1,5 @@
 <template>
-  <div class="text-gray-900 space-x-6 justify-end md:pr-12 flex">
+  <div :class="classes">
     <navbar-button>home</navbar-button>
     <navbar-button>about</navbar-button>
     <navbar-button>menu</navbar-button>
@@ -12,5 +12,11 @@
 import NavbarButton from "./NavbarButton";
 export default {
   components: { NavbarButton },
+
+  computed: {
+    classes: function () {
+      return "bg-white text-gray-900 space-x-6 justify-end md:pr-12 flex shadow fixed w-full";
+    },
+  },
 };
 </script>

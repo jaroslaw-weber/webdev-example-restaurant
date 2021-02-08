@@ -1,10 +1,8 @@
 <template>
   <div>
-    <p class="pl-8 text-left text-primary-600 font-bold text-2xl">
-      Featured Foods
-    </p>
-    <p class="pl-8 text-left font-bold text-6xl pt-6">lorem ipsum</p>
-    <div class="flex space-x-8 px-8 pt-10">
+    <p class="text-left text-primary-600 font-bold text-2xl">Featured Foods</p>
+    <p class="text-left text-4xl pt-6">Enjoy our specials</p>
+    <div class="flex space-x-8 pt-10">
       <div v-for="dish in dishes" :key="dish.name">
         <div class="hover:shadow flex flex-col bg-primary-50">
           <img :src="dish.img" />

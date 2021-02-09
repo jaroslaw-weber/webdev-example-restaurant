@@ -5,12 +5,12 @@
     </div>
     <div class="flex-1">
       <p class="text-right text-primary-600 text-2xl font-bold pt-12">
-        About Us
+        コンセプト
       </p>
-      <p class="text-right pt-3 text-4xl">France & Tokyo</p>
-      <p class="py-14">
-        lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem
-        ipsum
+      <p class="text-right pt-3 text-4xl">私の家</p>
+      <p class="py-14 text-left">
+        店名の「Chez
+        Soi」とはフランス語で「私の家」、「我家」を意味します。「普段着の贅沢」をモットーに、当店では家庭的なぬくもりや、安らぎを感じられるレストランを目指しております。
       </p>
       <simple-button>learn more</simple-button>
     </div>

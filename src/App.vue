@@ -23,4 +23,9 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+.square {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+}
 </style>

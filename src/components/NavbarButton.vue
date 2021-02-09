@@ -8,7 +8,7 @@ export default {
   },
   computed: {
     classes: function () {
-      if (this.isSelected) return "text-white";
+      if (this.isSelected) return "text-primary-600";
       return "";
     },
   },

@@ -1,7 +1,7 @@
 <template>
   <div>
     <navbar />
-    <div class="w-full md:w-3/4 md:mx-auto pt-20">
+    <div class="w-full md:w-3/4 md:mx-auto">
       <top-part />
       <about-us class="mt-40" />
       <featured-food class="mt-40" />

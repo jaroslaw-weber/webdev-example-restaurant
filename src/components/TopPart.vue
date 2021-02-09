@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col md:flex-row text-gray-900">
-    <div class="flex-1 flex flex-col justify-center space-y-2">
+  <div class="flex flex-col md:flex-row">
+    <div class="flex-1 flex flex-col justify-center space-y-2 pb-20 md:pb-0">
       <p class="font-bold text-primary-600">シェ・ソワ</p>
       <p class="text-5xl font-bold pb-4 text-primary-600">Chez Sois</p>
 

@@ -1,8 +1,14 @@
 <template>
   <div>
-    <p class="text-left text-primary-600 font-bold text-2xl">おすすめの料理</p>
-    <p class="text-left text-4xl pt-6">人気な食べ物</p>
-    <div class="flex space-x-8 pt-10">
+    <div class="px-8 md:px-0">
+      <p class="text-left text-primary-600 font-bold text-2xl">
+        おすすめの料理
+      </p>
+      <p class="text-left text-4xl pt-6">人気な食べ物</p>
+    </div>
+    <div
+      class="flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8 pt-10"
+    >
       <div v-for="dish in dishes" :key="dish.name" class="flex-1">
         <div class="hover:shadow flex flex-col bg-primary-50">
           <div class="square overflow-hidden">

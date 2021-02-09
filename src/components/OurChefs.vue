@@ -2,7 +2,9 @@
   <div>
     <p class="text-left text-primary-600 font-bold text-2xl">シェフ</p>
     <p class="text-left text-4xl pt-6">経験と努力</p>
-    <div class="flex space-x-8 pt-10 w-2/3">
+    <div
+      class="flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8 pt-10 w-full lg:w-2/3"
+    >
       <div v-for="chef in chefes" :key="chef.name" class="flex-1">
         <div
           class="hover:shadow flex-1 flex flex-col bg-cover bg-primary-50 p-2"

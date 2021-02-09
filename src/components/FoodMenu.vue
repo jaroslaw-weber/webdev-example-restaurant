@@ -1,8 +1,10 @@
 <template>
   <div class="">
-    <p class="text-right text-2xl font-bold text-primary-600">メニュー</p>
+    <div class="px-8 md:px-0">
+      <p class="text-right text-2xl font-bold text-primary-600">メニュー</p>
 
-    <p class="text-4xl text-right py-8">ゆっくりでランチを楽しましょう</p>
+      <p class="text-4xl text-right py-8">ゆっくりでランチを楽しましょう</p>
+    </div>
     <div class="grid lg:grid-cols-2 gap-6">
       <div v-for="dish in dishes" :key="dish.name">
         <div class="bg-primary-50 p-4 flex">

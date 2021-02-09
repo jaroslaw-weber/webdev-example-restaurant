@@ -3,7 +3,7 @@
     <div class="flex-1 overflow-hidden">
       <img class="w-2/3 mx-auto" src="/food2.jpg" />
     </div>
-    <div class="flex-1">
+    <div class="flex-1 px-8 md:px-0">
       <p class="text-right text-primary-600 text-2xl font-bold pt-12">
         コンセプト
       </p>
@@ -12,7 +12,6 @@
         店名の「Chez
         Soi」とはフランス語で「私の家」、「我家」を意味します。「普段着の贅沢」をモットーに、当店では家庭的なぬくもりや、安らぎを感じられるレストランを目指しております。
       </p>
-      <simple-button>learn more</simple-button>
     </div>
   </div>
 </template>

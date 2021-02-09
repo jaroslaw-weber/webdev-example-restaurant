@@ -1,24 +1,9 @@
-# webdev-example-restaurant
+# practice project - website creation and redesign
 
-## Project setup
-```
-npm install
-```
+original website:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+https://french-chezsoi.com/index.html
 
-### Compiles and minifies for production
-```
-npm run build
-```
+after redesign and rewritten in vue
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+https://chezsoi.netlify.app/

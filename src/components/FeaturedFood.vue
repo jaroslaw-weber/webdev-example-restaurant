@@ -4,7 +4,6 @@
       <p class="text-left text-primary-600 font-bold text-2xl">
         おすすめの料理
       </p>
-      <p class="text-left text-4xl pt-6">人気な食べ物</p>
     </div>
     <div
       class="flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8 pt-10"

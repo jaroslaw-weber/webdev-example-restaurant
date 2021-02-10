@@ -9,6 +9,7 @@
       <food-menu class="mt-40" />
       <reservation />
       <our-chefs class="mt-40" />
+      <access class="mt-40" />
       <reservation-form />
       <blog />
       <page-footer />
@@ -23,8 +24,22 @@ import AboutUs from "./AboutUs";
 import FeaturedFood from "./FeaturedFood";
 import FoodMenu from "./FoodMenu";
 import OurChefs from "./OurChefs";
+import Access from "./Access.vue";
 
 export default {
-  components: { Navbar, TopPart, AboutUs, FeaturedFood, FoodMenu, OurChefs },
+  components: {
+    Navbar,
+    TopPart,
+    AboutUs,
+    FeaturedFood,
+    FoodMenu,
+    OurChefs,
+    Access,
+  },
+
+  metaInfo: {
+    // if no subcomponents specify a metaInfo.title, this title will be used
+    title: "Home",
+  },
 };
 </script>

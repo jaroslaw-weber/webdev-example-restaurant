@@ -34,6 +34,7 @@ export default {
 }
 .square {
   width: 100%;
+
   height: 0;
   padding-bottom: 100%;
 }

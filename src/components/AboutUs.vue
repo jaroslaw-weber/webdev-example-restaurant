@@ -1,7 +1,7 @@
 <template>
   <div class="flex md:flex-row flex-col">
     <div class="flex-1 overflow-hidden">
-      <img class="w-2/3 mx-auto" src="/food2.jpg" />
+      <img class="w-2/3 mx-auto" src="/interia1.jpg" />
     </div>
     <div class="flex-1 px-8 md:px-0">
       <p class="text-right text-primary-600 text-2xl font-bold pt-12">

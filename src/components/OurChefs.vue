@@ -33,7 +33,7 @@ export default {
         },
         {
           name: "島田正弘",
-          img: "/chef.jpg",
+          img: "/chef2.jpg",
           description: "10年フランスでレストラン運営",
         },
       ],

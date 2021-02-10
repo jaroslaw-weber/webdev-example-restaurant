@@ -7,9 +7,7 @@
       <div class="flex-1 h-screen-half">
         <Map />
       </div>
-      <div
-        class="flex-1 flex flex-col text-right space-y-4 justify-around px-8"
-      >
+      <div class="flex-1 flex flex-col text-right space-y-4 justify-around p-8">
         <p class="font-bold">所在地</p>
         <p>
           レストラン シェ・ソワ<br />〒179-0084 東京都練馬区氷川台3-35-11<br />メゾンM・T

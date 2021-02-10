@@ -5,6 +5,7 @@
       <top-part class="mt-10 md:mt-0" />
       <about-us class="mt-40" />
       <featured-food class="mt-40" />
+      <atmosphere class="mt-40" />
       <offer />
       <food-menu class="mt-40" />
       <reservation />
@@ -25,6 +26,7 @@ import FeaturedFood from "./FeaturedFood";
 import FoodMenu from "./FoodMenu";
 import OurChefs from "./OurChefs";
 import Access from "./Access.vue";
+import Atmosphere from "./Atmosphere.vue";
 
 export default {
   components: {
@@ -35,6 +37,7 @@ export default {
     FoodMenu,
     OurChefs,
     Access,
+    Atmosphere,
   },
 
   metaInfo: {

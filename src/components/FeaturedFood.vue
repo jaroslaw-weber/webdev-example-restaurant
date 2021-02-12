@@ -1,9 +1,7 @@
 <template>
   <div>
     <div class="px-8 md:px-0">
-      <p class="text-left text-primary-600 font-bold text-2xl">
-        おすすめの料理
-      </p>
+      <section-title subtitle="高級な味">おすすめの料理</section-title>
     </div>
     <div
       class="flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8 pt-10"

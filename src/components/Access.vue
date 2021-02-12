@@ -1,13 +1,11 @@
 <template>
   <div>
-    <p class="text-right text-primary-600 font-bold text-2xl px-8 md:px-0">
-      アクセス
-    </p>
-    <div class="flex md:flex-row-reverse flex-col mt-10">
+    <section-title>アクセス</section-title>
+    <div class="flex md:flex-row flex-col mt-10">
       <div class="flex-1 h-screen-half">
         <Map />
       </div>
-      <div class="flex-1 flex flex-col text-right space-y-4 justify-around p-8">
+      <div class="flex-1 flex flex-col text-left space-y-4 justify-around p-8">
         <p class="font-bold">所在地</p>
         <p>
           レストラン シェ・ソワ<br />〒179-0084 東京都練馬区氷川台3-35-11<br />メゾンM・T

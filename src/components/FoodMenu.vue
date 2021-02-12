@@ -1,11 +1,9 @@
 <template>
   <div class="">
     <div class="px-8 md:px-0">
-      <p class="text-right text-2xl font-bold text-primary-600 pb-8">
-        メニュー
-      </p>
+      <section-title subtitle="">メニュー</section-title>
     </div>
-    <div class="grid lg:grid-cols-2 gap-6">
+    <div class="grid lg:grid-cols-2 gap-6 mt-8">
       <div v-for="dish in dishes" :key="dish.name">
         <div class="bg-primary-50 p-4 flex">
           <div class="w-1/4">

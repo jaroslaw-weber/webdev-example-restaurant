@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="px-8 md:px-0">
-      <p class="text-left text-primary-600 font-bold text-2xl">インテリア</p>
+      <section-title subtitle="おしゃれな雰囲気">インテリア</section-title>
     </div>
     <div class="grid gap-8 md:grid-cols-2 pt-10">
       <div v-for="photo in photos" :key="photo.name" class="col-span-1">

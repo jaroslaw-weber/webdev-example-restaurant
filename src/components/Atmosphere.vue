@@ -1,17 +1,19 @@
 <template>
-  <div>
-    <div class="px-8 md:px-0">
-      <section-title subtitle="おしゃれな雰囲気">インテリア</section-title>
-    </div>
-    <div class="grid gap-8 md:grid-cols-2 pt-10">
-      <div v-for="photo in photos" :key="photo.name" class="col-span-1">
-        <div class="hover:shadow flex flex-col bg-primary-50">
-          <div class="overflow-hidden">
-            <img :src="photo.img" class="" />
+  <div class="bg-primary-50">
+    <width-container>
+      <div class="px-8 md:px-0">
+        <section-title subtitle="おしゃれな雰囲気">インテリア</section-title>
+      </div>
+      <div class="grid gap-8 md:grid-cols-2 pt-10">
+        <div v-for="photo in photos" :key="photo.name" class="col-span-1">
+          <div class="hover:shadow flex flex-col bg-primary-50">
+            <div class="overflow-hidden">
+              <img :src="photo.img" class="" />
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </width-container>
   </div>
 </template>
 <script>

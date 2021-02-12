@@ -1,30 +1,26 @@
 <template>
   <div>
     <navbar />
-    <div class="w-full md:w-3/4 md:mx-auto">
+    <navbar :isFixed="true" v-if="showFixedNavbar" />
+    <width-container>
       <top-part class="mt-10 md:mt-0" />
       <about-us class="mt-40" />
       <featured-food class="mt-40" />
-      <atmosphere class="mt-40" />
+    </width-container>
+    <atmosphere class="pt-20 mt-20 pb-20 mb-20" />
+    <width-container>
       <offer />
-      <food-menu class="mt-40" />
-    </div>
-    <hero class="mt-40" background="interia1.jpg">
-      <div class="flex flex-col text-white justify-center h-full">
-        <p class="font-bold">ランチにきてみませんか？</p>
-        <p class="text-3xl font-bold pt-4">営業時間: 10時 - 20時</p>
-        <simple-button class="mt-12">予約する</simple-button>
-      </div></hero
-    >
-    <div class="w-full md:w-3/4 md:mx-auto">
+      <food-menu class="" />
+    </width-container>
+    <business-time class="mt-40" />
+    <width-container>
       <reservation />
       <our-chefs class="mt-40" />
-      <access class="mt-40" />
-      <reservation-form />
-      <blog />
-      <page-footer />
-      <div class="mt-40" />
-    </div>
+    </width-container>
+    <access class="pt-20 mt-20 pb-60" />
+    <reservation-form />
+    <blog />
+    <page-footer />
   </div>
 </template>
 <script>
@@ -36,9 +32,30 @@ import FoodMenu from "./FoodMenu";
 import OurChefs from "./OurChefs";
 import Access from "./Access.vue";
 import Atmosphere from "./Atmosphere.vue";
-import Hero from "./Hero.vue";
+import BusinessTime from "./BusinessTime";
 
 export default {
+  created() {
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  destroyed() {
+    window.removeEventListener("scroll", this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      this.pageYOffset = window.pageYOffset;
+    },
+  },
+  data: () => {
+    return {
+      pageYOffset: 0,
+    };
+  },
+  computed: {
+    showFixedNavbar: function () {
+      return this.pageYOffset > 200;
+    },
+  },
   components: {
     Navbar,
     TopPart,
@@ -48,7 +65,7 @@ export default {
     OurChefs,
     Access,
     Atmosphere,
-    Hero,
+    BusinessTime,
   },
 
   metaInfo: {

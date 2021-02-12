@@ -26,7 +26,7 @@ export default {
   computed: {
     classes: function () {
       if (this.isFixed) {
-        return `fade-in top-0 fixed bg-primary-900 text-white ${this.baseClasses}`;
+        return `shadow-xl fade-in top-0 fixed bg-primary-900 text-white ${this.baseClasses}`;
       }
       return `bg-white text-gray-900 ${this.baseClasses}`;
     },
